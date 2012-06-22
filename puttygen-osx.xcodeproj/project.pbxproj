@@ -1,0 +1,337 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3788890D1593B9A5002A35F4 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 3788890C1593B9A5002A35F4 /* main.c */; };
+		3788890F1593B9A5002A35F4 /* puttygen_osx.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3788890E1593B9A5002A35F4 /* puttygen_osx.1 */; };
+		378889841593D34E002A35F4 /* int64.c in Sources */ = {isa = PBXBuildFile; fileRef = 378889801593D34E002A35F4 /* int64.c */; };
+		378889851593D34E002A35F4 /* misc.c in Sources */ = {isa = PBXBuildFile; fileRef = 378889821593D34E002A35F4 /* misc.c */; };
+		378889861593D34E002A35F4 /* tree234.c in Sources */ = {isa = PBXBuildFile; fileRef = 378889831593D34E002A35F4 /* tree234.c */; };
+		378889881593D36E002A35F4 /* uxmisc.c in Sources */ = {isa = PBXBuildFile; fileRef = 378889871593D36E002A35F4 /* uxmisc.c */; };
+		3788898D1593D3F3002A35F4 /* uxnoise.c in Sources */ = {isa = PBXBuildFile; fileRef = 3788898C1593D3F3002A35F4 /* uxnoise.c */; };
+		378889901593D418002A35F4 /* uxstore.c in Sources */ = {isa = PBXBuildFile; fileRef = 3788898F1593D418002A35F4 /* uxstore.c */; };
+		378889921593D42C002A35F4 /* sshrand.c in Sources */ = {isa = PBXBuildFile; fileRef = 378889911593D42C002A35F4 /* sshrand.c */; };
+		378889941593D43F002A35F4 /* sshsha.c in Sources */ = {isa = PBXBuildFile; fileRef = 378889931593D43F002A35F4 /* sshsha.c */; };
+		378889981593D48C002A35F4 /* notiming.c in Sources */ = {isa = PBXBuildFile; fileRef = 378889971593D48C002A35F4 /* notiming.c */; };
+		3788899F1593D575002A35F4 /* version.c in Sources */ = {isa = PBXBuildFile; fileRef = 3788899E1593D575002A35F4 /* version.c */; };
+		378889A11593D75E002A35F4 /* sshpubk.c in Sources */ = {isa = PBXBuildFile; fileRef = 378889A01593D75E002A35F4 /* sshpubk.c */; };
+		378889A31593D792002A35F4 /* sshrsa.c in Sources */ = {isa = PBXBuildFile; fileRef = 378889A21593D792002A35F4 /* sshrsa.c */; };
+		378889A51593D7AB002A35F4 /* sshmd5.c in Sources */ = {isa = PBXBuildFile; fileRef = 378889A41593D7AB002A35F4 /* sshmd5.c */; };
+		378889A71593D7C7002A35F4 /* sshdes.c in Sources */ = {isa = PBXBuildFile; fileRef = 378889A61593D7C7002A35F4 /* sshdes.c */; };
+		378889A91593D7E5002A35F4 /* sshbn.c in Sources */ = {isa = PBXBuildFile; fileRef = 378889A81593D7E5002A35F4 /* sshbn.c */; };
+		378889AB1593D804002A35F4 /* sshdss.c in Sources */ = {isa = PBXBuildFile; fileRef = 378889AA1593D803002A35F4 /* sshdss.c */; };
+		378889AD1593D82E002A35F4 /* uxcons.c in Sources */ = {isa = PBXBuildFile; fileRef = 378889AC1593D82E002A35F4 /* uxcons.c */; };
+		378889AF1593D863002A35F4 /* sshaes.c in Sources */ = {isa = PBXBuildFile; fileRef = 378889AE1593D863002A35F4 /* sshaes.c */; };
+		378889B11593D878002A35F4 /* sshsh512.c in Sources */ = {isa = PBXBuildFile; fileRef = 378889B01593D878002A35F4 /* sshsh512.c */; };
+		378889B31593D893002A35F4 /* sshsh256.c in Sources */ = {isa = PBXBuildFile; fileRef = 378889B21593D893002A35F4 /* sshsh256.c */; };
+		378889B51593D8DA002A35F4 /* time.c in Sources */ = {isa = PBXBuildFile; fileRef = 378889B41593D8DA002A35F4 /* time.c */; };
+		378889B71593D8F6002A35F4 /* uxgen.c in Sources */ = {isa = PBXBuildFile; fileRef = 378889B61593D8F6002A35F4 /* uxgen.c */; };
+		378889B91593D90D002A35F4 /* sshdssg.c in Sources */ = {isa = PBXBuildFile; fileRef = 378889B81593D90D002A35F4 /* sshdssg.c */; };
+		378889BB1593D923002A35F4 /* sshrsag.c in Sources */ = {isa = PBXBuildFile; fileRef = 378889BA1593D923002A35F4 /* sshrsag.c */; };
+		378889BD1593D941002A35F4 /* import.c in Sources */ = {isa = PBXBuildFile; fileRef = 378889BC1593D941002A35F4 /* import.c */; };
+		378889BF1593D960002A35F4 /* sshprime.c in Sources */ = {isa = PBXBuildFile; fileRef = 378889BE1593D960002A35F4 /* sshprime.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		378889061593B9A5002A35F4 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				3788890F1593B9A5002A35F4 /* puttygen_osx.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		378889081593B9A5002A35F4 /* puttygen-osx */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "puttygen-osx"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3788890C1593B9A5002A35F4 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		3788890E1593B9A5002A35F4 /* puttygen_osx.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = puttygen_osx.1; sourceTree = "<group>"; };
+		378889771593D2B4002A35F4 /* putty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = putty.h; sourceTree = "<group>"; };
+		378889781593D2C2002A35F4 /* puttyps.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = puttyps.h; sourceTree = "<group>"; };
+		378889791593D2DC002A35F4 /* unix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = unix.h; sourceTree = "<group>"; };
+		3788897A1593D2EE002A35F4 /* charset.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = charset.h; sourceTree = "<group>"; };
+		3788897B1593D2FD002A35F4 /* network.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = network.h; sourceTree = "<group>"; };
+		3788897C1593D30D002A35F4 /* misc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = misc.h; sourceTree = "<group>"; };
+		3788897D1593D31A002A35F4 /* puttymem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = puttymem.h; sourceTree = "<group>"; };
+		3788897E1593D329002A35F4 /* ssh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ssh.h; sourceTree = "<group>"; };
+		3788897F1593D336002A35F4 /* tree234.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tree234.h; sourceTree = "<group>"; };
+		378889801593D34E002A35F4 /* int64.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = int64.c; sourceTree = "<group>"; };
+		378889811593D34E002A35F4 /* int64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = int64.h; sourceTree = "<group>"; };
+		378889821593D34E002A35F4 /* misc.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = misc.c; sourceTree = "<group>"; };
+		378889831593D34E002A35F4 /* tree234.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = tree234.c; sourceTree = "<group>"; };
+		378889871593D36E002A35F4 /* uxmisc.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = uxmisc.c; sourceTree = "<group>"; };
+		3788898C1593D3F3002A35F4 /* uxnoise.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = uxnoise.c; sourceTree = "<group>"; };
+		3788898E1593D402002A35F4 /* storage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = storage.h; sourceTree = "<group>"; };
+		3788898F1593D418002A35F4 /* uxstore.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = uxstore.c; sourceTree = "<group>"; };
+		378889911593D42C002A35F4 /* sshrand.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = sshrand.c; sourceTree = "<group>"; };
+		378889931593D43F002A35F4 /* sshsha.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = sshsha.c; sourceTree = "<group>"; };
+		378889971593D48C002A35F4 /* notiming.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = notiming.c; sourceTree = "<group>"; };
+		3788899E1593D575002A35F4 /* version.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = version.c; sourceTree = "<group>"; };
+		378889A01593D75E002A35F4 /* sshpubk.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = sshpubk.c; sourceTree = "<group>"; };
+		378889A21593D792002A35F4 /* sshrsa.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = sshrsa.c; sourceTree = "<group>"; };
+		378889A41593D7AB002A35F4 /* sshmd5.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = sshmd5.c; sourceTree = "<group>"; };
+		378889A61593D7C7002A35F4 /* sshdes.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = sshdes.c; sourceTree = "<group>"; };
+		378889A81593D7E5002A35F4 /* sshbn.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = sshbn.c; sourceTree = "<group>"; };
+		378889AA1593D803002A35F4 /* sshdss.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = sshdss.c; sourceTree = "<group>"; };
+		378889AC1593D82E002A35F4 /* uxcons.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = uxcons.c; sourceTree = "<group>"; };
+		378889AE1593D863002A35F4 /* sshaes.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = sshaes.c; sourceTree = "<group>"; };
+		378889B01593D878002A35F4 /* sshsh512.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = sshsh512.c; sourceTree = "<group>"; };
+		378889B21593D893002A35F4 /* sshsh256.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = sshsh256.c; sourceTree = "<group>"; };
+		378889B41593D8DA002A35F4 /* time.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = time.c; sourceTree = "<group>"; };
+		378889B61593D8F6002A35F4 /* uxgen.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = uxgen.c; sourceTree = "<group>"; };
+		378889B81593D90D002A35F4 /* sshdssg.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = sshdssg.c; sourceTree = "<group>"; };
+		378889BA1593D923002A35F4 /* sshrsag.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = sshrsag.c; sourceTree = "<group>"; };
+		378889BC1593D941002A35F4 /* import.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = import.c; sourceTree = "<group>"; };
+		378889BE1593D960002A35F4 /* sshprime.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = sshprime.c; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		378889051593B9A5002A35F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		378888FD1593B9A5002A35F4 = {
+			isa = PBXGroup;
+			children = (
+				3788890B1593B9A5002A35F4 /* puttygen-osx */,
+				378889091593B9A5002A35F4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		378889091593B9A5002A35F4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				378889081593B9A5002A35F4 /* puttygen-osx */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3788890B1593B9A5002A35F4 /* puttygen-osx */ = {
+			isa = PBXGroup;
+			children = (
+				3788897A1593D2EE002A35F4 /* charset.h */,
+				378889BC1593D941002A35F4 /* import.c */,
+				378889801593D34E002A35F4 /* int64.c */,
+				378889811593D34E002A35F4 /* int64.h */,
+				3788890C1593B9A5002A35F4 /* main.c */,
+				378889821593D34E002A35F4 /* misc.c */,
+				3788897C1593D30D002A35F4 /* misc.h */,
+				3788897B1593D2FD002A35F4 /* network.h */,
+				378889971593D48C002A35F4 /* notiming.c */,
+				378889771593D2B4002A35F4 /* putty.h */,
+				3788890E1593B9A5002A35F4 /* puttygen_osx.1 */,
+				3788897D1593D31A002A35F4 /* puttymem.h */,
+				378889781593D2C2002A35F4 /* puttyps.h */,
+				3788897E1593D329002A35F4 /* ssh.h */,
+				378889AE1593D863002A35F4 /* sshaes.c */,
+				378889A81593D7E5002A35F4 /* sshbn.c */,
+				378889A61593D7C7002A35F4 /* sshdes.c */,
+				378889AA1593D803002A35F4 /* sshdss.c */,
+				378889B81593D90D002A35F4 /* sshdssg.c */,
+				378889A41593D7AB002A35F4 /* sshmd5.c */,
+				378889BE1593D960002A35F4 /* sshprime.c */,
+				378889A01593D75E002A35F4 /* sshpubk.c */,
+				378889911593D42C002A35F4 /* sshrand.c */,
+				378889A21593D792002A35F4 /* sshrsa.c */,
+				378889BA1593D923002A35F4 /* sshrsag.c */,
+				378889B21593D893002A35F4 /* sshsh256.c */,
+				378889B01593D878002A35F4 /* sshsh512.c */,
+				378889931593D43F002A35F4 /* sshsha.c */,
+				3788898E1593D402002A35F4 /* storage.h */,
+				378889B41593D8DA002A35F4 /* time.c */,
+				378889831593D34E002A35F4 /* tree234.c */,
+				3788897F1593D336002A35F4 /* tree234.h */,
+				378889791593D2DC002A35F4 /* unix.h */,
+				378889AC1593D82E002A35F4 /* uxcons.c */,
+				378889B61593D8F6002A35F4 /* uxgen.c */,
+				378889871593D36E002A35F4 /* uxmisc.c */,
+				3788898C1593D3F3002A35F4 /* uxnoise.c */,
+				3788898F1593D418002A35F4 /* uxstore.c */,
+				3788899E1593D575002A35F4 /* version.c */,
+			);
+			path = "puttygen-osx";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		378889071593B9A5002A35F4 /* puttygen-osx */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 378889121593B9A5002A35F4 /* Build configuration list for PBXNativeTarget "puttygen-osx" */;
+			buildPhases = (
+				378889041593B9A5002A35F4 /* Sources */,
+				378889051593B9A5002A35F4 /* Frameworks */,
+				378889061593B9A5002A35F4 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "puttygen-osx";
+			productName = "puttygen-osx";
+			productReference = 378889081593B9A5002A35F4 /* puttygen-osx */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		378888FF1593B9A5002A35F4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 378889021593B9A5002A35F4 /* Build configuration list for PBXProject "puttygen-osx" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 378888FD1593B9A5002A35F4;
+			productRefGroup = 378889091593B9A5002A35F4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				378889071593B9A5002A35F4 /* puttygen-osx */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		378889041593B9A5002A35F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3788890D1593B9A5002A35F4 /* main.c in Sources */,
+				378889841593D34E002A35F4 /* int64.c in Sources */,
+				378889851593D34E002A35F4 /* misc.c in Sources */,
+				378889861593D34E002A35F4 /* tree234.c in Sources */,
+				378889881593D36E002A35F4 /* uxmisc.c in Sources */,
+				3788898D1593D3F3002A35F4 /* uxnoise.c in Sources */,
+				378889901593D418002A35F4 /* uxstore.c in Sources */,
+				378889921593D42C002A35F4 /* sshrand.c in Sources */,
+				378889941593D43F002A35F4 /* sshsha.c in Sources */,
+				378889981593D48C002A35F4 /* notiming.c in Sources */,
+				3788899F1593D575002A35F4 /* version.c in Sources */,
+				378889A11593D75E002A35F4 /* sshpubk.c in Sources */,
+				378889A31593D792002A35F4 /* sshrsa.c in Sources */,
+				378889A51593D7AB002A35F4 /* sshmd5.c in Sources */,
+				378889A71593D7C7002A35F4 /* sshdes.c in Sources */,
+				378889A91593D7E5002A35F4 /* sshbn.c in Sources */,
+				378889AB1593D804002A35F4 /* sshdss.c in Sources */,
+				378889AD1593D82E002A35F4 /* uxcons.c in Sources */,
+				378889AF1593D863002A35F4 /* sshaes.c in Sources */,
+				378889B11593D878002A35F4 /* sshsh512.c in Sources */,
+				378889B31593D893002A35F4 /* sshsh256.c in Sources */,
+				378889B51593D8DA002A35F4 /* time.c in Sources */,
+				378889B71593D8F6002A35F4 /* uxgen.c in Sources */,
+				378889B91593D90D002A35F4 /* sshdssg.c in Sources */,
+				378889BB1593D923002A35F4 /* sshrsag.c in Sources */,
+				378889BD1593D941002A35F4 /* import.c in Sources */,
+				378889BF1593D960002A35F4 /* sshprime.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		378889101593B9A5002A35F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		378889111593B9A5002A35F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		378889131593B9A5002A35F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		378889141593B9A5002A35F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		378889021593B9A5002A35F4 /* Build configuration list for PBXProject "puttygen-osx" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				378889101593B9A5002A35F4 /* Debug */,
+				378889111593B9A5002A35F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		378889121593B9A5002A35F4 /* Build configuration list for PBXNativeTarget "puttygen-osx" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				378889131593B9A5002A35F4 /* Debug */,
+				378889141593B9A5002A35F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 378888FF1593B9A5002A35F4 /* Project object */;
+}
